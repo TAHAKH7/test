@@ -9,11 +9,11 @@ Image Segmentation Prompt
 
    <p>
       <span style="color:#000080; font-size: 30px;"><strong>
-         Weakly Supervised Image Prompt Segmentation with Foundation Models documentation!
+         Industrial Image Prompt Segmentation with Foundation Models documentation
       </strong></span>
    </p>
 
-.. figure:: /Documentation/images/logo.jpg
+.. figure:: /Documentation/images/Capture.png
    :width: 100%
    :alt: Alternative text for the image
    :name: logo
