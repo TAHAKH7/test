@@ -8,7 +8,7 @@
 
 project = 'imagtftyt'
 copyright = '2024, GIIADS'
-author = 'image_segmentation_prompt'
+author = 'SegmaVision_Industrial field'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
