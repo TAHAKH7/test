@@ -1,4 +1,4 @@
-Image Segmentation Prompt
+Industrial Image Prompt Segmentation
 ===========================
 
 .. raw:: html
@@ -13,7 +13,7 @@ Image Segmentation Prompt
       </strong></span>
    </p>
 
-.. figure:: /Documentation/images/Capture.png
+.. figure:: /Documentation/images/IM.jpg
    :width: 100%
    :alt: Alternative text for the image
    :name: logo
