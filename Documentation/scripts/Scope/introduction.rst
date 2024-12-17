@@ -2,7 +2,7 @@ Project Introduction
 ====================
 ------------------------------------------
 
-image segmentation prompt
+Image Segmentation Prompt
 ___________________________
 
 
@@ -51,7 +51,7 @@ ___________________________
 
 
 
-.. figure:: /Documentation/images/scope/IM.jpg
+.. figure:: /Documentation/images/IM.jpg
    :width: 700
    :align: center
    :alt: Alternative text for the image
