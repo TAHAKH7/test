@@ -15,43 +15,43 @@ ___________________________
 
     <p style="text-align: justify;"><span style="color:#000080;">
 
-    This project aims to build a bridge (a connection) between users' text request and object(anomaly) detection/segmentation inside an image.
+    This project aims to build a bridge (a connection) between user text request and object(anomaly) detection(segmentation) inside an industrial image.
 
    </span></p>
     <p style="text-align: justify;"><i>
 
-    - <span style="color:blue;"> First input:</span><span style="color:#000080;"> Users' text request (query or prompt) about an object;
+    - <span style="color:blue;"> First input:</span><span style="color:#000080;"> User text request (query or prompt) about an object
 
     </i></span></p>
 
     <p style="text-align: justify;"><i>
 
-    - <span style="color:blue;"> Second input : </span><span style="color:#000080;"> The image;
+    - <span style="color:blue;"> Second input : </span><span style="color:#000080;"> The image
 
     </i></span></p>
 
     <p style="text-align: justify;"><i>
 
-    - <span style="color:blue;">Output : </span><span style="color:#000080;">The requested object, filtred and highlighted (segmented).
+    - <span style="color:blue;">Output : </span><span style="color:#000080;">The requested object, filtred and highlighted (segmented)
     </i></span></p>
     <p style="text-align: justify;">
     <span style="color:blue;"><strong>  For example: </span></strong>
     <span style="color:#000080;"><i>
-    the user has an image of people playing in the park, and wants to filter out dogs in the picture.
+    The user has an image of an industrial product(cast) and wants to segment the crack.
     </i></span></p>
     <p style="text-align: justify;"><span style="color:#000080;"><i>
-    in order to do so, the user inserts the picture and writes this query: "highlight dogs in the picture"
+    In order to do so, the user inserts the image and writes this query: "crack"
 
     </i></span></p>
     <p style="text-align: justify;"><span style="color:#000080;"><i> 
 
-    The output would be a processed images where dogs are highlighted
+    The output would be a processed images with the crack highlighted
     </i></span></p>
 
 
 
 
-.. figure:: /Documentation/images/scope/exmpl.jpg
+.. figure:: /Documentation/images/scope/IM.jpg
    :width: 700
    :align: center
    :alt: Alternative text for the image

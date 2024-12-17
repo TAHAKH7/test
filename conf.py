@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'imagtftyt'
+project = 'SegmaVision_Industrial field'
 copyright = '2024, GIIADS'
 author = 'SegmaVision_Industrial field'
 

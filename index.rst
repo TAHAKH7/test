@@ -1,4 +1,4 @@
-Industrial Image Prompt Segmentation
+SegmaVision_Industrial field
 ===========================
 
 .. raw:: html
