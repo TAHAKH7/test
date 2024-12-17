@@ -35,18 +35,6 @@ Industrial Image Prompt Segmentation
 
     <p><span style="color:white;">'</p></span>
 
-.. toctree::
-   :maxdepth: 4
-   :caption: Building Blocks
-   
-   Documentation/scripts/building-Blocks/pytorch.rst
-   Documentation/scripts/building-Blocks/nerale_network.rst
-   Documentation/scripts/building-Blocks/Transformer_Architecture.rst
-   Documentation/scripts/building-Blocks/ViT.rst
-   Documentation/scripts/building-Blocks/Vitimpl.rst
-
-.. raw:: html
-
     <p><span style="color:white;">'</p></span>
 
 .. toctree::

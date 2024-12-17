@@ -15,7 +15,7 @@ ___________________________
 
     <p style="text-align: justify;"><span style="color:#000080;">
 
-    This project aims to build a bridge (a connection) between users' text request and object detection inside an image.
+    This project aims to build a bridge (a connection) between users' text request and object(anomaly) detection/segmentation inside an image.
 
    </span></p>
     <p style="text-align: justify;"><i>
