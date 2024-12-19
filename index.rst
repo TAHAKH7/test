@@ -44,8 +44,9 @@ SegmaVision_Industrial field
    Documentation/scripts/foundation-models/Definition.rst
    Documentation/scripts/foundation-models/Famous-Models.rst
    Documentation/scripts/foundation-models/Role-in-the-Project.rst
-   Documentation/scripts/foundation-models/Finetunning.rst
-   
+   Documentation/scripts/foundation-models/GroundingDino Finetunning.rst
+   Documentation/scripts/foundation-models/GroundingSam with customized weights.rst
+
 .. raw:: html
 
     <p><span style="color:white;">'</p></span>
