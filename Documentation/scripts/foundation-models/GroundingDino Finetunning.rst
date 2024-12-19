@@ -1,4 +1,4 @@
-Finetunning 
+GroundingDINO Finetunning 
 ========================================
 
 ---------------------------------------------------------------------------------------------------------------------------------
@@ -7,7 +7,7 @@ Finetunning
 
     <p><span style="color:white;">'</p></span>
     <p style="text-align: justify;"><span style="color:#000080;"><i>  
-   After implementing and running the GroundingSam model in order to annotate and segment objects (general approach), in this part of the project we will finetunned it to a specific dataset (industrial product data containing defects)
+   After implementing and running the GroundingSam model in order to annotate and segment objects (general approach), in this part of the project we will finetunne GroundingDINO to a specific dataset (industrial product data containing defects)
 
    </i></span></p>
 
