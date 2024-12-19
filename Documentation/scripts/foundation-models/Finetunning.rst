@@ -87,7 +87,7 @@ Dataset Preparation
     plt.tight_layout()
     plt.show()
 
-.. figure:: /Documentation/images/output1.PNG
+.. figure:: /Documentation/images/output1.png
    :width:  700
    :align: center
    :alt: Alternative Text
@@ -326,7 +326,7 @@ Visualize Results
     Randomly selects and displays annotated images generated during inference for visual verification.
     <p><span style="color:white;">'</p></span>
     
-.. figure:: /Documentation/images/output2.PNG
+.. figure:: /Documentation/images/output2.png
    :width:  700
    :align: center
    :alt: Alternative Text
