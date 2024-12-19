@@ -87,6 +87,14 @@ Dataset Preparation
     plt.tight_layout()
     plt.show()
 
+.. figure:: /Documentation/images/output1.PNG
+   :width:  700
+   :align: center
+   :alt: Alternative Text
+
+.. raw:: html
+
+    <p><span style="color:white;">'</p></span>
 
 
 
@@ -317,98 +325,8 @@ Visualize Results
     - <strong>Objective</strong>: </span><span style="color:#000080;">
     Randomly selects and displays annotated images generated during inference for visual verification.
     <p><span style="color:white;">'</p></span>
-
-
-Importing and Initializing
---------------------------
-
-.. code-block:: python
-
-    from GroundingSam import *
-    classes = ['piano', 'guitar', 'phone', 'hat']
-    groundingsam = GroundingSam(classes=classes)
-
-
-
-.. raw:: html
-
-    <p style="text-align: justify;"><span style="color:blue;"><i>  
-    - <strong>Objective</strong>: </span><span style="color:#000080;">
-   Import the necessary modules from the `GroundingSam` project and initialize the `GroundingSam` object with a list of classes.
-
-        </i></span></p>     
-    <p style="text-align: justify;"><span style="color:blue;"><i> 
-    - <strong>Explanation:</strong></i></span></p>
-    <p style="text-align: justify;"><span style="color:red;"><i>   
-    - from GroundingSam import  </span><span style="color:#000080;">
-    Imports all functions and classes from the `GroundingSam` module. This allows easy access to the module's functionalities.
- 
-    </i></span></p> 
-    <p style="text-align: justify;"><span style="color:red;"><i>   
-    - Classes: </span><span style="color:#000080;">  
-   Defines a list of object classes to detect and annotate (in this case, 'piano', 'guitar', 'phone', 'hat').
-
-       </i></span></p> 
-    <p style="text-align: justify;"><span style="color:red;"><i>   
-    - groundingsam = GroundingSam(classes=classes): </span><span style="color:#000080;">  
-    Initializes the `GroundingSam` object with the specified classes. This object will be used for detection, annotation, and segmentation.
-
-       </i></span></p> 
-
-    <p><span style="color:white;">'</p></span>
-
-
-
-
-Detection, Annotation, and Segmentation
----------------------------------------
-
-
-
-.. code-block:: python
-
-    from GroundingSam import *
-    detections = groundingsam.get_detections()
-    groundingsam.annotate_images()
-    groundingsam.get_masks()
-
-.. raw:: html
-
-    <p style="text-align: justify;"><span style="color:blue;"><i>  
-    - <strong>Objective</strong>: </span><span style="color:#000080;">
-   Execute the main functions for detecting, annotating, and segmenting images.
-
-        </i></span></p>     
-    <p style="text-align: justify;"><span style="color:blue;"><i> 
-    - <strong>Explanation:</strong></i></span></p>
-    <p style="text-align: justify;"><span style="color:red;"><i>   
-    - detections = groundingsam.get_detections()  </span><span style="color:#000080;">
-    Obtains object detections for the specified classes. This method uses the model weights to detect objects in images.
-  </i></span></p> 
-    <p style="text-align: justify;"><span style="color:red;"><i>   
-    - groundingsam.annotate_images()</span><span style="color:#000080;">  
-    Annotates the images based on the obtained detections. This method adds visual annotations (such as bounding boxes) to the images to indicate detected objects.
-
-       </i></span></p> 
-    <p style="text-align: justify;"><span style="color:red;"><i>   
-    - groundingsam.get_masks() </span><span style="color:#000080;">  
-     Generates segmentation masks for the detected objects. This method creates pixel-wise masks for each detected object, allowing for precise segmentation.
-
-       </i></span></p> 
-
-    <p><span style="color:white;">'</p></span>
-
-
-
-
-
-.. code-block:: python
-
-    from GroundingSam import *
-    detections = groundingsam.get_detections()
     
-
-.. figure:: /Documentation/images/foundation-models/imp/1.PNG
+.. figure:: /Documentation/images/output2.PNG
    :width:  700
    :align: center
    :alt: Alternative Text
@@ -416,44 +334,3 @@ Detection, Annotation, and Segmentation
 .. raw:: html
 
     <p><span style="color:white;">'</p></span>
-
-
-.. code-block:: python
-
-    groundingsam.annotate_images()
-
-
-
-.. figure:: /Documentation/images/foundation-models/imp/2.png
-   :width:  700
-   :align: center
-   :alt: Alternative Text
-
-
-.. raw:: html
-
-    <p><span style="color:white;">'</p></span>
-
-
-.. code-block:: python
-
-    groundingsam.get_masks()
-
-
-.. figure:: /Documentation/images/foundation-models/imp/3.png
-   :width:  700
-   :align: center
-   :alt: Alternative Text
-
-
-
-
- 
-Summary
--------
-
-.. raw:: html
-
-    <p style="text-align: justify;"><span style="color:#000080;"><i>  
-    This code implements and runs the `GroundingSam` project to annotate and segment images using pre-trained models. It includes cloning the repository, installing dependencies, creating directories, downloading model weights, and executing the functions for detection, annotation, and segmentation. The images are annotated with bounding boxes and segmentation masks for the specified classes.
-       </i></span></p> 
