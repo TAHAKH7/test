@@ -44,7 +44,8 @@ SegmaVision_Industrial field
    Documentation/scripts/foundation-models/Definition.rst
    Documentation/scripts/foundation-models/Famous-Models.rst
    Documentation/scripts/foundation-models/Role-in-the-Project.rst
-
+   Documentation/scripts/foundation-models/Finetunning.rst
+   
 .. raw:: html
 
     <p><span style="color:white;">'</p></span>
