@@ -41,7 +41,7 @@ Key elements
 --------------------
 
 
-In this article, we will build a neural network from scratch and use it to classify
+In this article, we will build a neural network from scratch and use it to classify.
 
 .. raw:: html
 
